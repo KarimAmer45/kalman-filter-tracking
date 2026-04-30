@@ -27,3 +27,23 @@ pip install -r requirements.txt
 python tracking_filters.py
 ```
 
+## Result screenshots
+
+![kalman-filter-tracking result screenshot](docs/results/result-screenshot.png)
+
+Trajectory and component plots for Kalman filtering, smoothing, and EKF tracking experiments.
+
+
+## What this demonstrates
+
+- Linear Kalman filtering and fixed-lag smoothing on tracking data.
+- EKF-style nonlinear tracking experiments with noise comparisons.
+- Generated figures that expose both XY trajectory and state-component behavior.
+
+
+## Limitations and next steps
+
+- The examples use prepared observations rather than live detector input.
+- Noise models are manually selected for the bundled experiments.
+- Next steps: add detector integration and a parameter sweep report.
+
